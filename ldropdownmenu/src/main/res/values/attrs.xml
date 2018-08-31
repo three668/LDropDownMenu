@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LDropDownMenu">
+
+        <attr name="bottonlineColor" format="color"/>
+        <attr name="bottonlineHeight" format="float"/>
+        <attr name="dividerColor" format="color"/>
+        <attr name="dividerWith" format="float"/>
+        <attr name="dividerHeight" format="float"/>
+        <attr name="tabTextSelectedColor" format="color"/>
+        <attr name="tabTextUnselectedColor" format="color"/>
+        <attr name="menuBackgroundColor" format="color"/>
+        <attr name="maskColor" format="color"/>
+        <attr name="tabTextSize" format="dimension"/>
+        <attr name="tabSelectedIcon" format="reference"/>
+        <attr name="tabUnselectedIcon" format="reference"/>
+        <attr name="tabIconToRight" format="boolean"/>
+
+    </declare-styleable>
+</resources>

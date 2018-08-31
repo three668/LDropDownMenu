@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/main_bg"
+    tools:context="com.three.ldropdownmenu.MainActivity">
+
+    <com.three.LDropDownMenu
+        android:id="@+id/drop_down_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:tabTextSize="16sp"
+        app:tabTextSelectedColor="@color/selected_text_color"
+        app:tabTextUnselectedColor="@color/unselected_text_color"
+        app:tabSelectedIcon="@mipmap/icon_up"
+        app:tabUnselectedIcon="@mipmap/icon_down">
+
+        <!-- 以下放你想要的内容,注意要添加：android:layout_below="@id/drop_down_menu"-->
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/drop_down_menu"
+            android:text="这里是内容显示区域"/>
+
+    </com.three.LDropDownMenu>
+
+</LinearLayout>
